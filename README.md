@@ -8,7 +8,6 @@ The purpose of this project is to consolidate my technical capabilities as a **J
 ## 🧠 Work Philosophy
 My methodology is not limited to tool execution; it is rooted in critical and structured thinking:
 * **Process-Oriented:** Strict adherence to standard frameworks such as **OWASP ASVS**, **NIST CSF**, and **PTES**.
-* **Automation Mindset:** Constant pursuit of efficiency through scripting and orchestrating repetitive tasks within the audit lifecycle.
 * **Quality Reporting:** Delivery of detailed technical documentation that is understandable for both development teams and executive leadership.
 
 ---
@@ -21,11 +20,6 @@ This is a comprehensive professional report analyzing a machine designed under a
 * **Entry Vector:** Exploitation of weak configurations in web services and CMS.
 * **Privilege Escalation:** Analysis of misconfigured SUID permissions.
 * **Critical Finding:** Exposure of sensitive files (`/etc/shadow`) and databases.
-
-### 🛠️ Toolset Used
-* **Reconnaissance:** Nmap, Gobuster, Wappalyzer.
-* **Exploitation:** Metasploit Framework, Burp Suite, Custom Python Scripts.
-* **Post-Exploitation:** LinPEAS, Gtfobins.
 
 ---
 
