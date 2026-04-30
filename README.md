@@ -1,33 +1,33 @@
-# Audits-Reports: The Evolution of a Pentester
+# 🛡️ Cybersecurity Audit Portfolio
 
-This repository is not just a collection of reports; it is a technical record of my evolution in the field of offensive security. Each audit presented here represents a milestone in mastering new skills, with a special focus on the transition toward **security engagement automation**.
+Welcome to my cybersecurity audit repository. This space is dedicated to documenting professional pentesting processes, vulnerability assessments, and offensive security methodologies applied in controlled environments.
 
----
+## 🎯 Repository Objective
+The purpose of this project is to consolidate my technical capabilities as a **Junior Pentester**, demonstrating a rigorous approach to identifying, exploiting, and reporting vulnerabilities. My goal is to transform complex technical findings into executive reports that provide real value and actionable remediation solutions.
 
-## 🚀 Technical Evolution Roadmap
-
-| Phase | Technical Objective | Project / Report | Status |
-| :--- | :--- | :--- | :--- |
-| **01** | Stealth & Manual Evasion | [Mr. Robot: Stealth Techniques](./MrRobot) | ✅ Completed |
-| **02** | Engagement Automation | Orchestrated Recon & Attack | 📅 Coming Soon |
-| **03** | Active Directory & Persistence | Diamond Ticket Exploitation | 📅 Coming Soon |
-
----
-
-## 📂 Current Audits
-
-### 1. Mr. Robot: Stealth Techniques
-* **Focus:** Demonstration of stealth in controlled environments.
-* **Key Techniques:** Use of fragmented scans, basic detection evasion, and silent enumeration to minimize the footprint on the target system.
-* **Lesson Learned:** The critical importance of precision and traffic analysis before proceeding to the exploitation phase.
-* **[Access Detailed Report](./MrRobot/report_mr_robot.md)**
+## 🧠 Work Philosophy
+My methodology is not limited to tool execution; it is rooted in critical and structured thinking:
+* **Process-Oriented:** Strict adherence to standard frameworks such as **OWASP ASVS**, **NIST CSF**, and **PTES**.
+* **Automation Mindset:** Constant pursuit of efficiency through scripting and orchestrating repetitive tasks within the audit lifecycle.
+* **Quality Reporting:** Delivery of detailed technical documentation that is understandable for both development teams and executive leadership.
 
 ---
 
-## 🛠️ Work Philosophy & Automation
-My goal is to orient my career toward **Pentesting with Automation**. I do not seek to accumulate generic audits, but rather to demonstrate how manual techniques can be optimized through the development of custom tools.
+## 📑 Featured Audit: [TryHackMe] Mr. Robot
+This is a comprehensive professional report analyzing a machine designed under a high-complexity narrative.
 
-Soon, this repository will include my **Engagement Orchestrator**, a tool designed to automate critical phases of the audit, making security testing more efficient, repeatable, and professional.
+### 🔍 Project Overview
+* **Objective:** Identify and compromise three hidden "Keys" within the system.
+* **Entry Vector:** Exploitation of weak configurations in web services and CMS.
+* **Privilege Escalation:** Analysis of misconfigured SUID permissions.
+* **Critical Finding:** Exposure of sensitive files (`/etc/shadow`) and databases.
+
+### 🛠️ Toolset Used
+* **Reconnaissance:** Nmap, Gobuster, Wappalyzer.
+* **Exploitation:** Metasploit Framework, Burp Suite, Custom Python Scripts.
+* **Post-Exploitation:** LinPEAS, Gtfobins.
 
 ---
-*This portfolio is constantly evolving.*
+
+### 📝 Privacy & Ethics Note
+All audits presented in this repository have been conducted in controlled and legally authorized environments (TryHackMe, HackTheBox, etc.).
